@@ -1,0 +1,58 @@
+Turn ON these:
+    Public Bot
+    SERVER MEMBERS INTENT 
+    MESSAGE CONTENT INTENT 
+    PRESENCE INTENT
+
+Keep This in OFF: 
+    Require OAuth2 Code Grant
+
+
+
+
+Go to OAuth2 and URL Generator
+Select  bot, application.commands
+
+Select these bot permissions: 
+
+    View Channels
+    Send Messages
+    Embed Links
+    Read Message History
+    Use External Emojies
+    Manage Messages        
+    Moderate Members       
+    Move Members       
+
+
+INVITE BOT TO THE SERVER USING
+
+In config.py add the desired channel id values
+
+
+
+
+NOTE:
+KEEP this bot above all member roles except admin/mod
+
+Check channel permission of the bot to send message in #welcome channel, #screenshare-alert channel, #introduce-pannel, #introductions
+
+
+
+
+BOT ROLE PERMISSION:
+    View Channel
+    Send Messages
+    Embed Links
+    Read Message History
+
+
+
+
+RUNNING THE BOT:
+    Copy and paste bot token in await bot.start("PASTE_TOKEN")
+    Run "python main.py" in terminal
+    Enjoy!
+
+
+
