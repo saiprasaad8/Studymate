@@ -34,3 +34,7 @@ This bot helps enforce focused study sessions, manage introductions, moderate sp
 
 ### Announcement Command
 Admin-only slash command to send announcements.
+
+### Alert System Panel
+- Interactive timer set system using buttons, modals and dropdown menu
+- User clicks **Set Alert** button to set time, followed by a dropdown menu consists of Days in next ephemeral message
