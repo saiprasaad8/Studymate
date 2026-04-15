@@ -129,7 +129,7 @@ class AlertView(discord.ui.View):
             await interaction.response.send_message("No alerts found.", ephemeral=True)
             return
 
-        msg = "⏰ Your Alerts:\n\n"
+        msg = " Your Alerts:\n\n"
         for a in user_alerts:
             msg += f"{a['hour']}:{a['min']} {a['ampm']} → {', '.join(a['days'])}\n"
 
@@ -189,7 +189,7 @@ class Alert(commands.Cog):
                     try:
                         user = await self.bot.fetch_user(alert["user_id"])
                         await user.send("⏰ Study Reminder! Time to focus!")
-                        print("DM sent")
+                        
                     except Exception as e:
                         print("DM failed:", e)
 
@@ -209,7 +209,7 @@ class Alert(commands.Cog):
                     pass
 
         embed = discord.Embed(
-            title="⏰ Study Alert System",
+            title="Study Alert System",
             description="Set your reminders easily.",
             color=discord.Color.blue()
         )
