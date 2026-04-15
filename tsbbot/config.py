@@ -16,4 +16,5 @@ INTRO_OUTPUT_CHANNEL_ID = 0
 # admin role (Role ID)
 ADMIN_ROLE_ID = 0
 
-
+# timer alert channel
+ALERT_PANEL_CHANNEL_ID = 0
