@@ -17,6 +17,7 @@ async def load_cogs():
     await bot.load_extension("cogs.moderation")
     await bot.load_extension("cogs.introduction")
     await bot.load_extension("cogs.announce")
+    await bot.load_extension("cogs.alert")
 
 @bot.event
 async def on_ready():
