@@ -38,3 +38,5 @@ Admin-only slash command to send announcements.
 ### Alert System Panel
 - Interactive timer set system using buttons, modals and dropdown menu
 - User clicks **Set Alert** button to set time, followed by a dropdown menu consists of Days in next ephemeral message
+- The user can also view their aleet time and delete the current alert time using the **View Alert** and **Delete Alert** button
+  
